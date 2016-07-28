@@ -1,0 +1,45 @@
+body {background:#0776A0;
+	
+}
+h1{ font-size: 60px;
+ 	line-height: 100px;
+	font-weight: bold;
+ 	text-align: center;
+ 	text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+ 	text-align: center;
+ 	padding: 20px;
+ 	background-color:#62b1D0;
+ }
+h1, h2, h3, h4{
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+	border-style: solid;
+	border-width: 5px;
+	margin: 5px;
+	border-color: #3AA6D0;
+	color: #024C68;
+
+}
+#first-p{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#wrapper{
+	float: left;
+	
+}
+aside{
+	position: relative;
+	float: right;
+	top: 20px;
+}
+.center{
+	text-align: center;
+}
+article{
+	position: absolute;
+	margin-top: 800px;
+	border-color:white;
+}
+footer{
+	position: relative;
+	margin-top: 1000px;
+}
