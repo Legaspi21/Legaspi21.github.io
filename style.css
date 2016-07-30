@@ -25,5 +25,24 @@ li a:hover {
 #homewrap{
     background-image: url(background.jpg);
     background-size: 100% auto;
-    background-color: #cccccc;
+    background-color: white;
+}
+@font-face {
+    font-family: BebasNeue; /*a name to be used later*/
+    src: url(BebasNeue.otf); /*URL to font*/
+}
+body {
+    font-family: BebasNeue;
+    
+    background-color: yellow;
+}
+header{
+    color: white;
+    font-size: 2em;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -3px 0 #000,
+      -1px 5px 0 #000,
+       1px 1px 0 #000;
 }
