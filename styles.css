@@ -1,45 +1,39 @@
-body {background:#0776A0;
-	
-}
-h1{ font-size: 60px;
- 	line-height: 100px;
-	font-weight: bold;
- 	text-align: center;
- 	text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
- 	text-align: center;
- 	padding: 20px;
- 	background-color:#62b1D0;
- }
-h1, h2, h3, h4{
-	font-family: "Comic Sans MS", cursive, sans-serif; 
-	border-style: solid;
-	border-width: 5px;
-	margin: 5px;
-	border-color: #3AA6D0;
-	color: #024C68;
+/*
+Padding and border added to at least one element
+Margin added to at least one element
+At least one centered element (a footer message can be nice for this)
+A background image on at least one element
+A different font on at least one element
+A few elements styled using a class
+A different color for visited links
+An element styled with an ID
+*/
 
-}
-#first-p{
-	font-family: "Arial Black", Gadget, sans-serif;
-}
-#wrapper{
-	float: left;
-	
-}
-aside{
-	position: relative;
-	float: right;
-	top: 20px;
-}
-.center{
+header{
+	border: 5px solid black;
 	text-align: center;
 }
-article{
-	position: absolute;
-	margin-top: 800px;
-	border-color:white;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-footer{
-	position: relative;
-	margin-top: 1000px;
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
