@@ -64,10 +64,7 @@ cite {
     /*padding: 2%;
     margin:2%;*/
 }
-#bio p::first-letter { 
-    font-size: 200%;
-    color: #8A2BE2;
-}
+
 #creditdiv{
     font-size: 2em;
 }
