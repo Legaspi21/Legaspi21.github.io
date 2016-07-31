@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
+    font-size: 20px;
+
 }
 
 #lnk {
@@ -28,24 +30,40 @@ li a:hover {
     background-color: white;
     background-repeat: no-repeat;
 }
+blockquote {
+    font-size: 5em;
+    color: white;
+    opacity: .7;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -3px 0 #000,
+      -1px 5px 0 #000,
+       1px 1px 0 #000;
+}
+cite {
+    font-size: 2em;
+    color: white;
+    opacity: .7;
+}
 #bio {
-    max-width: 950px;
-    min-width: 380px;
+    /*max-width: 950px;
+    min-width: 380px;*/
     font-size: 1.5em;
     border-radius: 25px;
-    background-image: url(wood.png);
+    /*background-image: url(wood.png);*/
     padding: 2%;
     margin:2%;
 }
-p::first-letter{
+p:first-letter{
     font-size: 1.25;
 }
 #creditdiv{
     font-size: 2em;
 }
 @font-face {
-    font-family: BebasNeue; /*a name to be used later*/
-    src: url(BebasNeue.otf); /*URL to font*/
+    font-family: BebasNeue; 
+    src: url(BebasNeue.otf); 
 }
 body {
     font-family: BebasNeue;
@@ -63,15 +81,21 @@ header{
       -1px 5px 0 #000,
        1px 1px 0 #000;
 }
-.vids{
-    display: inline-block;
-    float: left;
-    width: 50%;
 
+.vids{
+    column-count: 3;
+    float: left;
 }
+
 .credits{
     list-style-image: url(slap.png);
+    column-count: 3;
+    column-gap: 10px;
 
+}
+@media screen and (max-width: 1300px)
+{
+    .vids{column-count: 1}
 }
 @media screen and (max-width: 1000px) {
   #homewrap {
@@ -82,7 +106,7 @@ header{
     width:50%;
   }
   li{padding: 5px 5px;}
-  #bio{font-size: .65em}
+  #bio{font-size: .85em}
   #beatw{font-size: .65em
   }
   #navlinks {
@@ -90,7 +114,7 @@ header{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; 
 }
 #lnk{float: none}
 li a {
@@ -100,7 +124,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
     background-color: #555;
     color: white;
