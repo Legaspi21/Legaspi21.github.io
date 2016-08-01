@@ -35,6 +35,7 @@ li a:hover {
     background-size: 100% auto;
     background-color: white;
     background: cover;
+    background-repeat: no-repeat;
 }
 blockquote {
     font-size: 5em;
@@ -75,7 +76,6 @@ cite {
 body {
     font-family: BebasNeue;
     background-color: yellow;
-    background : cover;
     /*max-width:1080px;
     min-width: 380px;*/
 }
