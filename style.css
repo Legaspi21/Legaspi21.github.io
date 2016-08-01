@@ -32,9 +32,8 @@ li a:hover {
 
 #homewrap{
     background-image: url(background.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     background-color: white;
-    background: cover;
 }
 blockquote {
     font-size: 5em;
