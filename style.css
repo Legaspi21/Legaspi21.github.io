@@ -34,8 +34,6 @@ li a:hover {
     background-image: url(background.jpg);
     background-size: 100% auto;
     background-color: white;
-    background: cover;
-    background-repeat: no-repeat;
 }
 blockquote {
     font-size: 5em;
